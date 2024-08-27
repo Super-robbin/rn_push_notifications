@@ -2,6 +2,7 @@
   "expo": {
     "name": "rn_push_notifications",
     "slug": "rn_push_notifications",
+    "owner": "rquadraccia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rquadraccia.rn_push_notifications"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +34,11 @@
           "defaultChannel": "default"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c5a3bd97-3ed5-4f49-8f31-503bef6937b6"
+      }
+    }
   }
 }
